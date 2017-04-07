@@ -22,7 +22,7 @@ unsigned long lastPrint = 0;
 
 const unsigned long printDelay = 500;
 const unsigned long minReportDelay = 500;
-const unsigned long maxReportDelay = 60000;
+const unsigned long maxReportDelay = 1000;
 
 WiFiClient client;
 M2XStreamClient m2xClient(&client, m2xKey);
